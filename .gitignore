@@ -6,3 +6,4 @@
 .Rproj.user
 *.Rproj
 2023_challenge/output/*
+!2023_challenge/output/.gitkeep
