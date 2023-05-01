@@ -33,6 +33,11 @@ p <- ggplot(gdp_long, aes(x=gdp_year, y=gdp_value, group=country_name)) +
   scale_shape_manual(values = c(5, 17, 7, 19, 4)) + 
   theme(plot.caption = element_text(hjust = 0))
 p
+
+# Add the magnification using ggmagnify. 
+# The xlim, ylim determine which part of the graph is magnified. 
+# The inset_xlim, inset_ylim give the coordinates of the inset location.
+# axes = TRUE to label the inset
 ggm <- ggmagnify(p,
     xlim = c(2008, 2011), ylim = c(1, 2.5), axes=TRUE,
           inset_xlim = c(2001, 2008), inset_ylim = c(6, 12))
