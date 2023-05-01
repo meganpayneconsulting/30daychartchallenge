@@ -1,3 +1,8 @@
 *.csv
 *.png
 *.TIF
+*.xcf
+.Rhistory
+.Rproj.user
+*.Rproj
+2023_challenge/output/*
