@@ -1,5 +1,4 @@
-s*.csv
-*.png
+*.csv
 *.TIF
 *.xcf
 .Rhistory
