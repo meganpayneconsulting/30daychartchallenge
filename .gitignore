@@ -1,9 +1,7 @@
-*.csv
+s*.csv
 *.png
 *.TIF
 *.xcf
 .Rhistory
 .Rproj.user
 *.Rproj
-2023_challenge/output/*
-!2023_challenge/output/.gitkeep
